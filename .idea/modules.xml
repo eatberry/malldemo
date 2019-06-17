@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/household_provider01/household_provider01.iml" filepath="$PROJECT_DIR$/household_provider01/household_provider01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall_consumer01/mall_consumer01.iml" filepath="$PROJECT_DIR$/mall_consumer01/mall_consumer01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/malldemo.iml" filepath="$PROJECT_DIR$/.idea/malldemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pcservice_provider01/pcservice_provider01.iml" filepath="$PROJECT_DIR$/pcservice_provider01/pcservice_provider01.iml" />
+    </modules>
+  </component>
+</project>
