@@ -1,6 +1,6 @@
-APPLICATION_ID: microservice-shop
+APPLICATION_ID: microservice-mall
 service_description:
-  name: householdprovider
+  name: provider01
   version: 0.0.3
   description: Basic version of householdprovider service
 cse:
@@ -18,13 +18,13 @@ cse:
     client:
       serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
   rest:
-      address: 0.0.0.0:18081
+      address: 0.0.0.0:19091
 household:
     sellhousehold: providerprefix
 servicecomb:
    handler:
       chain:
          Consumer:
-            default: mall_consumer
+            default: consumer
          Provider:
-            default: household_provider01
+            default: provider01

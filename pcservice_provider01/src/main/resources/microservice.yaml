@@ -1,6 +1,6 @@
-APPLICATION_ID: microservice-shop
+APPLICATION_ID: microservice-mall
 service_description:
-  name: pcserviceprovider
+  name: provider02
   version: 0.0.1
 cse:
   service:
@@ -17,11 +17,11 @@ cse:
     client:
       serverUri: https://cse.cn-north-1.myhuaweicloud.com:443
   rest:
-      address: 0.0.0.0:18083
+      address: 0.0.0.0:19093
 servicecomb:
    handler:
       chain:
          Consumer:
-            default: mall_consumer
+            default: consumer
          Provider:
-            default: pcservice_provider01
+            default: provider02
